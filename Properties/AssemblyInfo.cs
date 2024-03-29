@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("NuGet Packages Merge Tool")]
 [assembly: AssemblyDescription("This is a NuGet packages merge utility which lets you merge two .nupkg packages (two .NET Framework Versions) into a single .nupkg package.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Abel Cheng")]
+[assembly: AssemblyCompany("Abel Cheng, BitKFu")]
 [assembly: AssemblyProduct("NuGetPackagesMerge")]
-[assembly: AssemblyCopyright("Copyright 2015-2017 Abel Cheng - http://nupkgmerge.codeplex.com")]
+[assembly: AssemblyCopyright("Copyright 2015-2024 Abel Cheng - http://nupkgmerge.codeplex.com, BitKFu - http")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.1.0")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]

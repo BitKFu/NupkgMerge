@@ -1,8 +1,6 @@
 ﻿// Copyright (c) 2015 Abel Cheng <abelcys@gmail.com>. Licensed under the MIT license.
 // Repository: https://nupkgmerge.codeplex.com/
 
-using System.Linq;
-using System.Collections.Generic;
 using CommandLine;
 using CommandLine.Text;
 

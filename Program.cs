@@ -15,9 +15,10 @@ namespace NuGetPackageMerge
 			{
 				if (cmdArguments.Parse(args))
 				{
-					NupkgMerge nupkgMerge = new NupkgMerge(cmdArguments.PrimaryNupkg);
+					var nupkgMerge = new NupkgMerge(cmdArguments.PrimaryNupkg);
 					nupkgMerge.Merge(cmdArguments.SecondNupkg);
 					nupkgMerge.Save(cmdArguments.OutputNupkg);
+					nupkgMerge.CleanUpLocalFiles();
 
 					Console.WriteLine("Successfully merged '{0}' with '{1}' into '{2}'.",
 						cmdArguments.PrimaryNupkg, cmdArguments.SecondNupkg, cmdArguments.OutputNupkg);
