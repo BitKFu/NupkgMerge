@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Abel Cheng, BitKFu")]
 [assembly: AssemblyProduct("NuGetPackagesMerge")]
-[assembly: AssemblyCopyright("Copyright 2015-2024 Abel Cheng - http://nupkgmerge.codeplex.com, BitKFu - http")]
+[assembly: AssemblyCopyright("Copyright 2015-2024 Abel Cheng - https://github.com/DataBooster/NupkgMerge, BitKFu - https://github.com/BitKFu/NupkgMerge")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
